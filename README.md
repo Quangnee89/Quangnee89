@@ -1,16 +1,42 @@
-## Hi there 👋
+# 👋 Xin chào!
 
-<!--
-**Quangnee89/Quangnee89** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
+🎓 Sinh viên ngành Kỹ thuật phần mềm - Trường Đại học Đà Lạt  
+📍 Sống tại Đà Lạt, Lâm Đồng, Việt Nam  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Giới thiệu
+- 💻 Đam mê lập trình Java, C#, Web Development
+- 📚 Sinh viên khóa CTK46A-PM
+- 🔭 Hiện đang học và làm các dự án cá nhân
+- Ăn, ngủ , code, game
+- Cầu lông, Pic, bóng bàn,...
+
+---
+
+## 🌐 Liên hệ với mình
+- 📧 Email: **2212447@dlu.edu.vn**
+- 🌍 Website: nguyenngoctuequang.id.vn(#)
+- 📱 Facebook: [facebook.com/yourprofile](#)
+- 🐱 GitHub: [github.com/Quangnee89](https://github.com/Quangnee89)
+
+---
+
+## 🚀 Công nghệ & Ngôn ngữ
+![Java](https://img.shields.io/badge/-Java-orange?logo=java&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-red?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-blue?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=black)
+![C#](https://img.shields.io/badge/-C%23-green?logo=c-sharp&logoColor=white)
+
+---
+
+## 📌 Dự án nổi bật
+- [Java Project](#) - Quản lý nhân sự
+- [HTML/CSS Website](#) - Trang web giới thiệu
+- [C# App](#) - Ứng dụng quản lý
+- Quản lý shop đồ chơi
+
+---
+
