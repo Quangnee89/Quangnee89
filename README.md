@@ -41,7 +41,10 @@ Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
 - Ngân hàng số
 
 ---
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Quangnee89&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Quangnee89&layout=compact&theme=radical)
+## 📊 Thống kê GitHub
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Quangnee89&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Quangnee89&layout=compact&theme=tokyonight)
+
 
 
