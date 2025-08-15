@@ -13,7 +13,7 @@ Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
 - 🔭 Hiện đang học và làm các dự án cá nhân
 - Ăn, ngủ , code, game
 - Cầu lông, Pic, bóng bàn,...
-
+- Gym, đi bộ
 ---
 
 ## 🌐 Liên hệ với mình
