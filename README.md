@@ -44,5 +44,4 @@ Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Quangnee89&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Quangnee89&layout=compact&theme=radical)
 
-![snake gif](https://github.com/Quangnee89/Quangnee89/blob/output/github-contribution-grid-snake.svg)
 
