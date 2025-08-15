@@ -34,9 +34,10 @@ Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
 
 ## 📌 Dự án nổi bật
 - [Java Project](#) - Quản lý nhân sự
-- [HTML/CSS Website](#) - Trang web giới thiệu
+- [HTML/CSS Website](#) - Trang web giới thiệu bản thân
 - [C# App](#) - Ứng dụng quản lý
 - Quản lý shop đồ chơi
+- Ngân hàng số
 
 ---
 
