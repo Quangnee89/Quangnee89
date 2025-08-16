@@ -2,7 +2,7 @@
 
 Mình là **Nguyễn Ngọc Tuệ Quang** (Gôn)
 
-🎓 Sinh viên ngành Kỹ thuật phần mềm - Trường Đại học Đà Lạt  
+🎓 Sinh viên ngành Kỹ thuật phần mềm -khoa Công Nghệ Thông Tin - Trường Đại học Đà Lạt  
 📍 Sống tại Đà Lạt, Lâm Đồng, Việt Nam  
 
 ---
