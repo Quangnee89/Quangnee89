@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Sentiment Analysis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">E-commerce Sentiment Analysis</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#models" class="nav-link">Models</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <h1 class="hero-title">Phân tích cảm xúc khách hàng<br>Thương mại điện tử</h1>
+            <p class="hero-subtitle">Ứng dụng Machine Learning để phân loại đánh giá sản phẩm thành Tích cực, Trung tính hoặc Tiêu cực — hỗ trợ doanh nghiệp hiểu khách hàng tốt hơn.</p>
+            <a href="#demo" class="btn btn-primary hero-btn">🚀 Thử bản demo</a>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="section demo-section" id="demo">
+        <div class="container">
+            <h2 class="section-title">Bản demo phân tích cảm xúc</h2>
+            <p class="section-subtitle">Nhập bình luận tiếng Việt và chọn mô hình để xem kết quả phân loại.</p>
+
+            <div class="demo-grid">
+                <!-- Input Panel -->
+                <div class="card demo-input-card">
+                    <h3 class="card-title">💬 Nhập bình luận</h3>
+                    <textarea id="commentInput" class="textarea" rows="5" placeholder="Ví dụ: Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận..."></textarea>
+
+                    <div class="form-row">
+                        <label for="modelSelect" class="label">Chọn mô hình:</label>
+                        <select id="modelSelect" class="select">
+                            <option value="logistic_regression">Logistic Regression</option>
+                            <option value="naive_bayes">Naive Bayes</option>
+                            <option value="svm">SVM</option>
+                            <option value="random_forest">Random Forest</option>
+                        </select>
+                    </div>
+
+                    <button id="analyzeBtn" class="btn btn-primary btn-block">🔍 Phân tích cảm xúc</button>
+
+                    <!-- Example Sentences -->
+                    <div class="examples">
+                        <p class="examples-label">📝 Câu ví dụ — click để thử nhanh:</p>
+                        <div class="examples-list" id="examplesList"></div>
+                    </div>
+                </div>
+
+                <!-- Result Panel -->
+                <div class="card demo-result-card">
+                    <h3 class="card-title">📊 Kết quả phân tích</h3>
+                    <div id="resultArea" class="result-area">
+                        <div class="result-placeholder">
+                            <span class="result-placeholder-icon">🤖</span>
+                            <p>Nhập bình luận và nhấn <strong>"Phân tích cảm xúc"</strong> để xem kết quả tại đây.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Models & Metrics Section -->
+    <section class="section models-section" id="models">
+        <div class="container">
+            <h2 class="section-title">Mô hình &amp; Số liệu</h2>
+            <p class="section-subtitle">So sánh hiệu suất của các mô hình Machine Learning trên tập dữ liệu đánh giá TMĐT tiếng Việt.</p>
+
+            <div class="card table-card">
+                <div class="table-responsive">
+                    <table class="metrics-table" id="metricsTable">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Accuracy</th>
+                                <th>F1‑Score</th>
+                                <th>Ghi chú</th>
+                            </tr>
+                        </thead>
+                        <tbody id="metricsTableBody">
+                            <!-- Rendered by app.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Giới thiệu về dự án</h2>
+            <p class="section-subtitle">Tổng quan về mục tiêu, dữ liệu và quy trình xây dựng hệ thống phân tích cảm xúc.</p>
+
+            <div class="about-grid">
+                <div class="card about-card">
+                    <div class="about-card-icon">🎯</div>
+                    <h3>Mục tiêu</h3>
+                    <p>Xây dựng hệ thống phân loại cảm xúc (Tích cực / Trung tính / Tiêu cực) cho đánh giá sản phẩm thương mại điện tử tiếng Việt, giúp doanh nghiệp hiểu phản hồi khách hàng.</p>
+                </div>
+                <div class="card about-card">
+                    <div class="about-card-icon">📦</div>
+                    <h3>Dữ liệu</h3>
+                    <p>Sử dụng tập dữ liệu <strong>Vietnamese Sentiment</strong> từ Kaggle, bao gồm hàng nghìn đánh giá sản phẩm đã được gắn nhãn cảm xúc.</p>
+                </div>
+                <div class="card about-card">
+                    <div class="about-card-icon">⚙️</div>
+                    <h3>Quy trình (Pipeline)</h3>
+                    <p>Thu thập dữ liệu → Tiền xử lý văn bản → Trích xuất đặc trưng TF‑IDF → Huấn luyện mô hình ML → Triển khai Demo.</p>
+                </div>
+            </div>
+
+            <!-- Pipeline Visual -->
+            <div class="pipeline">
+                <div class="pipeline-step">
+                    <span class="pipeline-icon">📥</span>
+                    <span class="pipeline-label">Thu thập</span>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <span class="pipeline-icon">🧹</span>
+                    <span class="pipeline-label">Tiền xử lý</span>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <span class="pipeline-icon">📐</span>
+                    <span class="pipeline-label">TF‑IDF</span>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <span class="pipeline-icon">🤖</span>
+                    <span class="pipeline-label">Huấn luyện</span>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <span class="pipeline-icon">🚀</span>
+                    <span class="pipeline-label">Demo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 E-commerce Sentiment Analysis. Built with ❤️ by Nguyễn Ngọc Tuệ Quang.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
